@@ -16,8 +16,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { HomeComponent } from './components/home/home.component';
-import { HttpErrorsInterceptor } from './interseptors/http-errors.interseptor';
-import { HttpHeadersInterceptor } from './interseptors/http-headers.interseptors';
+import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
+import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor';
 @NgModule({
   declarations: [AppComponent, SearchBarComponent, HomeComponent],
   imports: [
